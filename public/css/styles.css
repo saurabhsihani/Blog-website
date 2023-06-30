@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -60px; /* the bottom margin is the negative value of the footer's height */
+}
+.push {
+    height: 60px; /* .push must be the same height as .footer */
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.nav-item {
+  padding: 15px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer {
+	height: 60px;
+	background-color: #1abc9c;
+}
+.footer p {
+	margin: auto;
+	font-size: 12px;
+  color: #fff;
+}
